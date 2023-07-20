@@ -13,12 +13,11 @@ declare function ActionLink(context: HomeLinkProps): NullstackNode
 class Home extends Nullstack<HomeProps> {
   prepare({ project, page }: NullstackClientContext<HomeProps>) {
     page.title = `${project.name}`
-    page.description = `${project.name} was made with Nullstack`
   }
 
   hydrate() {
     new TypeIt('#greeting', {
-      strings: ["Hi, I'm Borba"],
+      strings: ["Hi, I'm Guilherme Borba"],
       speed: 60
     }).go()
   }
@@ -111,11 +110,7 @@ class Home extends Nullstack<HomeProps> {
           </article>
           <aside class="w-full sm:w-1/4 sm:sticky top-[25px] h-full">
             <Link href="https://linkedin.com/in/guilhermeborba">
-              <img
-                class="w-full inline-block rounded-lg"
-                src="/borba-chan.jpg"
-                alt="Nulla-Chan: Nullstack's official waifu"
-              />
+              <img class="w-full inline-block rounded-lg" src="/borba-chan.jpg" />
             </Link>
           </aside>
         </section>
