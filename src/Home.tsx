@@ -113,7 +113,7 @@ class Home extends Nullstack<HomeProps> {
               <div class="max-w-lg space-y-2">
                 <h1 class="text-3xl">My Achievements 🏆</h1>
               </div>
-              <section class="max-w-lg bg-gray-900 text-white py-8">
+              <section class="max-w-lg text-white py-8">
                 <p class="text-lg mb-6">
                   I have contributed to various successful projects and achieved significant
                   milestones.
