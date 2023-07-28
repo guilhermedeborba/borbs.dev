@@ -45,7 +45,7 @@ class Home extends Nullstack<HomeProps> {
 
   render({ project }: NullstackClientContext<HomeProps>) {
     return (
-      <main class="p-4 md:p-16 mb-[200px] mb-0">
+      <main class="container mx-auto p-4 md:p-16 mb-[200px] mb-0">
         <section class="flex flex-col-reverse sm:flex-row">
           <div class="w-full">
             <article class="md:h-screen w-full mb-5 space-y-8 p-6">
